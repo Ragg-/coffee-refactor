@@ -11,7 +11,6 @@ module.exports =
             order       : 1
 
     activate: ->
-        atom.workspace.emit 'coffee-refactor-became-active'
         return if 'refactor' in packageManager.getAvailablePackageNames() and
             !packageManager.isPackageDisabled 'refactor'
 
