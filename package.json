@@ -1,16 +1,19 @@
 {
   "name": "coffee-refactor",
   "main": "./lib/coffee_refactor",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "Refactoring support for CoffeeScript",
-  "repository": "https://github.com/minodisk/coffee-refactor",
+  "repository": "https://github.com/ragg-/coffee-refactor",
   "license": "MIT",
   "auther": {
     "name": "Daisuke Mino",
     "url": "http://dsk.mn"
   },
+  "contributors": [
+      "Ragg (https://github.com/Ragg-)"
+  ],
   "engines": {
-    "atom": ">0.50.0",
+    "atom": ">1.0.0",
     "refactor": "*"
   },
   "scripts": {
