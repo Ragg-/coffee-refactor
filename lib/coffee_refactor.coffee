@@ -3,9 +3,12 @@ Ripper = require './ripper'
 
 
 module.exports =
-
-    configDefaults:
-        'disable in large files (chars)': 20000
+    config:
+        'maxWorkChars':
+            title       : 'disable in large files (chars)'
+            type        : 'integer'
+            default     : 20000
+            order       : 1
 
     activate: ->
         atom.workspace.emit 'coffee-refactor-became-active'
