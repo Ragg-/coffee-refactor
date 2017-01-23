@@ -1,5 +1,7 @@
 # Coffee Refactor Package [![Build Status](https://travis-ci.org/minodisk/coffee-refactor.svg?branch=master)](https://travis-ci.org/minodisk/coffee-refactor)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Ragg-/coffee-refactor.svg)](https://greenkeeper.io/)
+
 CoffeeScript refactoring language plugin for [Atom](https://atom.io/).
 **This package requires [refactor](https://atom.io/packages/refactor) package.**
 You can install from the preference pane.
